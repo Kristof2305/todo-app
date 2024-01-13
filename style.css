@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #383838;
+}
+
+.add-todo-section {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.input-field {
+  background-color: #383838;
+  color: #B2DB3D;
+  width: 30%;
+  height: 2rem;
+  border-radius: 25px 0 0 25px;
+  border: 0.1rem solid #B2DB3D;
+  outline: none;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.add-button {
+    background-color: #B2DB3D;
+    border: none;
+    height: 2rem;
+    border-radius: 0  25px 25px 0;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.list-of-items {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container {
+    width: 30%;
+    border: none;
+    background-color: #B2DB3D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 7px;
+}
+
+.todo-text {
+    color: #383838;
+}
+
+.delete-button {
+  background: none;
+    color: #383838;
+    font-size: 0.7rem;
+    outline: none;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.checkbox {
+    cursor: pointer;
+}
